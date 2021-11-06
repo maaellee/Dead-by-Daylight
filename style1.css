@@ -1,0 +1,154 @@
+/* Importe une font sur google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container {
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: 30px 10px 400px 10px 500px;
+    grid-template-rows: 1fr;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', 'serif';
+}
+
+.game_dev_logo {
+    width: 50px;
+}
+
+.game_logo_containers {
+    margin: auto;
+    display: block;
+}
+
+.menu_container {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.menu_items {
+    color: white;
+    font-family: 'Merriweather', 'serif';
+    margin: 5%;
+}
+
+.main {
+    background-color: black;
+    background-image: url("./images/dbd.png");
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', 'serif';
+    font-size: 18px;
+}
+
+.desc_para {
+    margin-right: 300px
+}
+
+.description {
+    margin: 50px;
+    margin-left: 10%;
+}
+
+.title {
+    font-family: 'Bebas+Neue', 'serif';
+    font-weight: bold;
+    font-size: 60px !important;
+    margin: 2px;
+}
+
+.subtitle {
+    font-style: italic;
+    margin: 4px;
+    margin-bottom: 50px;
+}
+
+.trailer {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+}
+
+.annee {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-rows: 0.3fr 0.3fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img_chapter {
+    max-width: 75%;
+    border-radius: 20%;
+}
+
+.chapter_title {
+    font-size: 20px;
+}
+
+.chapter_container {
+    text-align: center;
+    font-family: 'Inconsolata', 'serif';
+}
+
+.main_chap {
+    background-color: rgb(50, 50, 50);
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', 'serif';
+    font-size: 18px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.title2 {
+    font-family: 'Merriweather', 'serif';
+    font-weight: bold;
+    font-size: 25px !important;
+    margin: 2px;
+}
+
+.separation {
+    font-family: 'Inconsolata', 'serif';
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-row: 100fr;
+}
+
+.delimiter {
+    margin-left: 10px;
+    border-left: solid white 2px;
+    height: 500vh
+}
+
+.paragraph {
+    line-height: 25px;
+}
+
+.htp_images {
+    border: solid white 3px;
+    max-width: 500px;
+}
+
+.year-title {
+    font-family: 'Merriweather', 'serif';
+    font-size: 28px
+}
+
