@@ -88,7 +88,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template-rows: 0.3fr 0.3fr 1fr 0.5fr;
+    grid-template-rows: 0.3fr 0.3fr 1fr 0.2fr;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -96,7 +96,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template-rows: 0.3fr 0.3fr 0.5fr;
+    grid-template-rows: 0.3fr 0.3fr 0.2fr;
     grid-template-columns: 1fr 1fr;
 }
 
